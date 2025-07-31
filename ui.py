@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # 🚀 Load Models with raw string paths
-chest_model = tf.keras.models.load_model(r'E:\cnn_project\Chest-xray_model.h5')
+chest_model = tf.keras.models.load_model(r'Chest-xray_model.h5')
 brain_model = tf.keras.models.load_model(r'E:\cnn_project\brain_tumour_model.h5')
 
 # 🔖 Class Labels
